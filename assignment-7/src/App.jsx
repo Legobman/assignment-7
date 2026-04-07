@@ -8,7 +8,15 @@ import ComputerThrow from './ComputerThrow'
 import ResultDisplay from './ResultDisplay'
 import './style.css'
 
+/*
+  Name: Matthew Berwick
+  Date: 4.7.2026
+  CSC 372-01
 
+  Is an second version of the rock paper scissors game website.
+  This time it uses react for its functionality so it is able to
+  seemlessly update the webpage.
+*/
 function App() {
   const [playerChoice, setPlayerChoice] = useState(null);
   const [computerChoice, setComputerChoice] = useState(null);

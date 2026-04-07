@@ -1,8 +1,6 @@
 /** @function ResultDisplay */
-//
-import { useEffect } from "react";
+// the function to result the result
 function ResultDisplay({result}){
-      
     return(
         <div>
             <h2>{result}</h2>

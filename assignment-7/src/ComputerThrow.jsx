@@ -1,5 +1,9 @@
 /** @function ComputerThrow */
-//
+/*
+  The function to randomly generate the computer's choice and compare it to the user's
+  choice to the computer's choice, then it generate result to be sent to the resultdisplay
+  component.
+*/
 import { useState, useEffect } from "react";
 const choices = ["rock", "paper", "scissors"];
 
