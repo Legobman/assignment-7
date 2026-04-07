@@ -6,8 +6,8 @@ import './App.css'
 import PlayerThrow from './PlayerThrow'
 import ComputerThrow from './ComputerThrow'
 import ResultDisplay from './ResultDisplay'
+import './style.css'
 
-const choices = ["rock", "paper", "scissors"]
 
 function App() {
   const [playerChoice, setPlayerChoice] = useState(null);
